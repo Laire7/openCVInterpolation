@@ -2,13 +2,13 @@
 이미지를 확대한 후, 부드럽게 필터링 후 축소해서 interpolation_area와 다른 interpolation 비교(9월9일2024년)
 ## Interpolation 종류 비교
 ### Interpolation_Area
-![area](https://github.com/user-attachments/assets/542cfcd8-e355-4471-b4ec-be2dca0363ea)
+![area](https://github.com/user-attachments/assets/4733d7f1-d172-45f5-a222-d63d3c6c14ab)
 ### Interpolation_Lancos4
-![lanc](https://github.com/user-attachments/assets/3e265ab9-dd51-4fef-8b65-0620c1353b46)
+![lanc](https://github.com/user-attachments/assets/2b8ec659-ad76-4cd6-a0c5-8bbb744fe969)
 ### Interpolation_Cubic
-![cubic](https://github.com/user-attachments/assets/f32ab9a5-2d02-45e7-b87c-b6f0025a3152)
+![cubic](https://github.com/user-attachments/assets/6a2154c0-5288-481b-8734-4fc1a9c2c3ef)
 ### Interpolation_Nearest
-![near](https://github.com/user-attachments/assets/3e3d3d33-cb25-4575-ba96-f978652bbb17)
+![near](https://github.com/user-attachments/assets/cb8dd0fb-e0e1-4ef6-ab20-7c59f4685564)
 ## 마우스 이벤트
 ### <code>cv2.setMouseCallback ('windowName', mouse_callback, [imgName]) </code> <code>mouse_callback(event, x, y, flags, param) </code>
 <code>flags</code> 마우스 이벤트와 함께 Ctrl, Shift, Alt등의 키가 눌러졌는지 확인 해준다
